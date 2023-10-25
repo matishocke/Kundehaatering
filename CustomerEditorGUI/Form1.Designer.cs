@@ -46,6 +46,7 @@
             Button_Delete = new Button();
             CreateCustomerBtn = new Button();
             button1 = new Button();
+            label5 = new Label();
             ((System.ComponentModel.ISupportInitialize)dGridV_CustomerList).BeginInit();
             ((System.ComponentModel.ISupportInitialize)customerBindingSource).BeginInit();
             groupBox1.SuspendLayout();
@@ -218,11 +219,21 @@
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(1115, 566);
+            label5.Name = "label5";
+            label5.Size = new Size(68, 30);
+            label5.TabIndex = 5;
+            label5.Text = "label5";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1575, 684);
+            Controls.Add(label5);
             Controls.Add(button1);
             Controls.Add(CreateCustomerBtn);
             Controls.Add(Button_Delete);
@@ -237,6 +248,7 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -258,5 +270,6 @@
         private Button Button_Delete;
         private Button CreateCustomerBtn;
         private Button button1;
+        private Label label5;
     }
 }
