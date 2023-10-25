@@ -45,7 +45,7 @@
             label1 = new Label();
             Button_Delete = new Button();
             CreateCustomerBtn = new Button();
-            label5 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)dGridV_CustomerList).BeginInit();
             ((System.ComponentModel.ISupportInitialize)customerBindingSource).BeginInit();
             groupBox1.SuspendLayout();
@@ -209,21 +209,21 @@
             CreateCustomerBtn.UseVisualStyleBackColor = true;
             CreateCustomerBtn.Click += CreateCustomerBtn_Click;
             // 
-            // label5
+            // button1
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(999, 509);
-            label5.Name = "label5";
-            label5.Size = new Size(68, 30);
-            label5.TabIndex = 4;
-            label5.Text = "label5";
+            button1.Location = new Point(1106, 494);
+            button1.Name = "button1";
+            button1.Size = new Size(219, 58);
+            button1.TabIndex = 4;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(12F, 30F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1575, 684);
-            Controls.Add(label5);
+            Controls.Add(button1);
             Controls.Add(CreateCustomerBtn);
             Controls.Add(Button_Delete);
             Controls.Add(groupBox1);
@@ -237,7 +237,6 @@
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
@@ -258,6 +257,6 @@
         private DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
         private Button Button_Delete;
         private Button CreateCustomerBtn;
-        private Label label5;
+        private Button button1;
     }
 }
