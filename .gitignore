@@ -1,0 +1,11 @@
+BusinessLogic/obj/
+CustomerEditorGUI/bin/
+UnitTests/bin/
+UnitTests/obj/Debug/net6.0/UnitTests.GlobalUsings.g.cs
+UnitTests/obj/
+Abstractions/obj/
+Abstractions/bin/
+BusinessLogic/bin/
+CustomerEditorGUI/obj/
+Repositories/bin/
+Repositories/obj/
